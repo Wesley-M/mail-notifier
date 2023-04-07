@@ -1,0 +1,62 @@
+{
+    "search_for": [
+        {
+            "name": "Liax (sender)",
+            "sender": ".*liax.*"
+        },
+        {
+            "name": "Liax (subject)",
+            "subject": ".*liax.*"
+        },
+        {
+            "name": "Linx (sender)",
+            "sender": ".*linx.*"
+        },
+        {
+            "name": "Linx (subject)",
+            "subject": ".*linx.*"
+        },
+        {
+            "name": "Beyond (sender)",
+            "sender": ".*beyond.*"
+        },
+        {
+            "name": "Beyond (subject)",
+            "subject": ".*beyond.*"
+        },
+        {
+            "name": "Arch (sender)",
+            "sender": "^(\\.|\\-)?arch.*$"
+        },
+        {
+            "name": "Arch (subject)",
+            "subject": ".* arch .*"
+        },
+        {
+            "name": "Unimed (sender)",
+            "sender": ".*unimed.*"
+        },
+        {
+            "name": "Unimed (subject)",
+            "subject": ".*unimed.*"
+        },
+        {
+            "name": "Magalu (sender)",
+            "sender": ".*magalu.*"
+        },
+        {
+            "name": "Magalu (subject)",
+            "subject": ".*magalu.*"
+        },
+        {
+            "name": "Linkedin",
+            "sender": ".*linkedin.*",
+            "exclude_in_subject": "(.*competências.*)|(.*adicione.*)|(.*parabéns.*)|(.*contratando.*)|(.*similar.*)|(.*recomendações.*)"
+        },
+        {
+            "name": "Job (?)",
+            "subject": "(.*offer.*)|(.*interview.*)|(.*entrevista.*)"
+        }
+    ],
+    "inspect_x_last_emails": 20
+}
