@@ -4,10 +4,10 @@
 The thing is, it is smart enough to understand **what** to notify you. It looks at patterns 
 in a config file and follows them when trying to notify.
 
-This script relies on (mailnag)[https://github.com/pulb/mailnag] to work (In fact, it is just a
+This script relies on [mailnag](https://github.com/pulb/mailnag) to work (In fact, it is just a
 user script that mailnag will run when there is new mail). So, you need to install mailnag first. It also
-makes use of (_notify-send_)[https://wiki.archlinux.org/index.php/Desktop_notifications] from libnotify 
-to send desktop notifications and the (_pacat_)[https://man.archlinux.org/man/pacat.1] tool from PulseAudio.
+makes use of [_notify-send_](https://wiki.archlinux.org/index.php/Desktop_notifications) from libnotify 
+to send desktop notifications and the [_pacat_](https://man.archlinux.org/man/pacat.1) tool from PulseAudio.
 
 ## Installation & Instructions
 
