@@ -98,7 +98,7 @@ def notify_user(root, notifications):
         subprocess.Popen(['paplay', '{}/assets/ring.aif'.format(root)])
 
 if __name__ == "__main__":
-    ROOT = "/opt/job-notifier"
+    ROOT = "/opt/mail-notifier"
 
     MAIL_FORMAT = {
         "ACCOUNT_EMAIL": 0,

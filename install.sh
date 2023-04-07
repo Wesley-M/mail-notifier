@@ -1,18 +1,18 @@
 # Script to install job-notifier
 
-DIR=/opt/job-notifier
+DIR=/opt/mail-notifier
 if [ -d "$DIR" ]; then
     # Removing the old directory 
-    sudo rm -rf /opt/job-notifier
+    sudo rm -rf /opt/mail-notifier
     # Removing the old shortcut
-    sudo rm /usr/local/bin/job-notifier
+    sudo rm /usr/local/bin/mail-notifier
 fi
 
 # Create a directory for the script
-sudo mkdir /opt/job-notifier
+sudo mkdir /opt/mail-notifier
 
 # Copy the script to the directory
-sudo cp -r ./ /opt/job-notifier
+sudo cp -r ./ /opt/mail-notifier
 
 # Create a shortcut to the script
-sudo ln -s /opt/job-notifier/main.py /usr/local/bin/job-notifier
+sudo ln -s /opt/mail-notifier/main.py /usr/local/bin/mail-notifier
